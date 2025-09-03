@@ -26,15 +26,20 @@ Kullanıcıların gelir ve gider işlemlerini yönetebileceği temel işlevlere 
 | TypeScript      | Tür güvenliği                  |
 
 ---
+Ekranlar
+/login
+/register
+/dashboard
+/transactions
 
 ##  Kurulum
+```bash
+git clone https://github.com/ShizuKaida/finansalDefter.git
+cd finansalDefter
+npm install
+npm run dev
 
-src/
-├── app/
-│   ├── api/
-│   │   └── auth/          → Kayıt, giriş
-│   │   └── transactions/  → CRUD işlemleri
-│   ├── components/        → UI bileşenleri (Modal, TransactionItem vs.)
-│   └── transactions/      → Ana dashboard sayfası
-├── lib/                   → db bağlantısı ve jwt yardımcıları
-├── models/                → veritabanı modelleri
+
+
+
+
