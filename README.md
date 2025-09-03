@@ -33,6 +33,12 @@ Ekranlar
 /transactions
 /addTransaction
 
+.env klasöründe
+MONGODB_URI:"DatabseURL'iniz"
+JWT_SECRET:"JWT Secret Keyiniz"
+
+api-doc : https://app.swaggerhub.com/apis/berkayalbayrak-154/finansalDefter/1.0.0
+
 ##  Kurulum
 ```bash
 git clone https://github.com/ShizuKaida/finansalDefter.git
