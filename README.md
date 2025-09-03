@@ -31,6 +31,7 @@ Ekranlar
 /register
 /dashboard
 /transactions
+/addTransaction
 
 ##  Kurulum
 ```bash
